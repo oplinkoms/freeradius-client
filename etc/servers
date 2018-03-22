@@ -7,4 +7,4 @@
 ## uncomment the following line for simple testing of radlogin
 ## with freeradius-server
 #
-#localhost/localhost				testing123
+172.16.161.103	testing123
