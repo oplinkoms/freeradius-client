@@ -303,3 +303,13 @@ VALUE		Add-Port-To-IP-Address	Yes			1
 #VALUE		Server-Config		Password-Expiration	30
 #VALUE		Server-Config		Password-Warning	5
 
+#add by liyi for user role VSA
+VENDOR          OPLINK  7483
+BEGIN-VENDOR    OPLINK
+ATTRIBUTE       User-Role	1       integer
+VALUE   User-Role	Observer	0
+VALUE   User-Role	Provisioner	1
+VALUE   User-Role	Administrator	2
+VALUE   User-Role	Crypto	4
+END-VENDOR      OPLINK
+
