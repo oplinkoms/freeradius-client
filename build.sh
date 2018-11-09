@@ -21,9 +21,12 @@ else
 fi
 
 make; return_val
+sudo make install; return_val
 
+:<<!
 sudo cp -f lib/.libs/libfreeradius-client.so* $INSTALL_PATH/lib; return_val
 sudo cp -pdf radius/etc/* $INSTALL_PATH/etc/radiusclient; return_val
+!
 
 exit 0
 
